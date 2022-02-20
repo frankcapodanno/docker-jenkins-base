@@ -1,0 +1,6 @@
+Example to first time init the jenkins container
+643050796b2d1a0dae12f756016185e67dfc5bb41b181e3cb55fce39cd41423e
+
+sudo docker container exec \
+    643050796b2d1a0dae12f756016185e67dfc5bb41b181e3cb55fce39cd41423e \
+    sh -c "cat /var/jenkins_home/secrets/initialAdminPassword"
